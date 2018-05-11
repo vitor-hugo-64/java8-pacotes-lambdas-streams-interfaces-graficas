@@ -8,10 +8,9 @@ public class Curso {
 	String nome;
 	float valor;
 	Path url; // classe que armazena enderecos de site
-	public Curso() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	
+	@Override
+	public String toString() {
+		return "Curso [nome=" + nome + "]";
+	}	
 	
 }
